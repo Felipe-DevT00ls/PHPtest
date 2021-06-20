@@ -14,8 +14,11 @@ após isso dé um git clone no projeto dentro da pasta "vagaEmprego", logo após
 
 ```sh
 mkdir vagaEmprego
+
 cd vagaEmprego
+
 git clone  https://github.com/Felipe-DevT00ls/PHPtest.git
+
 composer install
 ```
 
