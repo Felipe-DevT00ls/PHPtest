@@ -41,10 +41,10 @@ No array que está configurado na variavel `$config` você pode alterar apenas o
 Tecnologias utilizadas no projeto.
 
 >Obs: Caso encontrado algum arquivo jQuery no projeto,
->ele está presente pelas necessidades do bootstrap
+>ele está presente pelas necessidades do bootstrap,
 >todos os eventos e rotinas criadas como funcionalidades
 >no front-end foi utilizando Javascript puro.
->E são localizadas na Pasta `assets/scripts`
+>E estão localizadas na Pasta `assets/scripts`
 
 
 | Tecnologia | Utilização |
