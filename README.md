@@ -57,4 +57,25 @@ Tecnologias utilizadas no projeto.
 
 ## Imagens do Projeto
 
+### Pagina inicial do sistema 
+![imagem](Imagens%20do%20Projeto/Home.png)
+<br/><br/><br/>
+
+### Pagina de pesquisa de cep do sistema 
+![imagem](Imagens%20do%20Projeto/Search_Default.png)
+<br/><br/><br/>
+
+### Pagina de pesquisa de cep do sistema recebendo um cep não cadastrado no Banco de dados
+![imagem](Imagens%20do%20Projeto/Search_webservice.png)
+<br/>
+Perceba que no xml retornado temos um valor a mais na reposta, que é o "<Service>", ele é reponsavel por retornar ao usuario da aplicação,
+de onde os dados estão sendo retornados
+<br/><br/><br/>
+    
+### Pagina de pesquisa de cep do sistema recebendo um cep cadastrado no Banco de dados
+![imagem](Imagens%20do%20Projeto/Search_Bd.png)
+<br/>
+Perceba que o valor de <Service\> retorna que o dado está vindo do Banco de dados.
+Pois o mesmo, já foi consultado anteriormente.
+<br/><br/><br/>
 
