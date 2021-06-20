@@ -10,12 +10,13 @@ Sistema desenvolvido como certificação de conhecimentos, para vaga de emprego.
 ## Instalação
 
 Primeiro vá ao diretorio que desejá instalar o projeto e crie a pasta "vagaEmprego"
-após isso dé um git clone no projeto dentro da pasta "vagaEmprego".
+após isso dé um git clone no projeto dentro da pasta "vagaEmprego", logo após isso dê um composer install.
 
 ```sh
 mkdir vagaEmprego
 cd vagaEmprego
 git clone  https://github.com/Felipe-DevT00ls/PHPtest.git
+composer install
 ```
 
 Após isso altere as configurações do banco de dados do projeto, conforme sejá
