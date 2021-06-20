@@ -1,25 +1,60 @@
-# PHPtest
+# PHPTest - Finalizado
+## _Sistema de busca de cep_
 
-Teste de seleção para vaga PHP
+Sistema desenvolvido como certificação de conhecimentos, para vaga de emprego.
 
-## Faça um fork desse projeto e siga as intruções a seguir utilizando esse projeto.
+- Nome: BuscaCep 1.0
+- Autor: Gabriel Felipe
+- ✨PHP developer
 
-Construir uma aplicação web para buscar endereço. Aplicação deve fazer uma chamada na API via cep : https://viacep.com.br/.
-Premissas:
+## Instalação
 
-  ● Usar PHP 5.6 ou superior.
-  
-  ● Usar Bootstrap.
-  
-  ● JavaScript (Não usar framework).
-  
-  ● Retorno deve ser em xml.
-  
-  ● Salvar os dados em uma base e antes de uma nova consulta verificar se o cep já foi consultado, caso tenha sido, trazer    informação da base e não deve efetuar uma nova consulta.
-  
-  ● Tratar o erro. Dar um retorno amigável para usuário leigo.
-  
-  
-## PS: Valorizamos a criatividade no layout.
+Primeiro vá ao diretorio que desejá instalar o projeto e crie a pasta "vagaEmprego"
+após isso dé um git clone no projeto dentro da pasta "vagaEmprego".
 
-Ao finalizar a programação publicar esse teste em seu github e nos encaminhar o link com as instruções de teste.
+```sh
+mkdir vagaEmprego
+cd vagaEmprego
+git clone  https://github.com/Felipe-DevT00ls/PHPtest.git
+```
+
+Após isso altere as configurações do banco de dados do projeto, conforme sejá
+necessário, para que o projeto rode em seu servidor.
+
+As configurações do banco de dados da aplicação estão em: `config.php`
+
+```sh
+    if(ENVIRONMENT == "development"){
+        define("BASE_URL", "http://localhost/vagaEmprego/PHPtest/");
+        $config = [
+            "dbname" => "apiCep",
+            "host" => "localhost",
+            "user" => "root",
+            "pass" => ""
+        ];
+    }
+```
+
+No array que está configurado na variavel `$config` você pode alterar apenas os valores de cada indice, conforme as configuração do banco de dados do seu server.
+
+## Tecnologias
+Tecnologias utilizadas no projeto.
+
+>Obs: Caso encontrado algum arquivo jQuery no projeto,
+>ele está presente pelas necessidades do bootstrap
+>todos os eventos e rotinas criadas como funcionalidades
+>no front-end foi utilizando Javascript puro.
+>E são localizadas na Pasta `assets/scripts`
+
+
+| Tecnologia | Utilização |
+| ------ | ------ |
+| PHP | Back-end |
+| GitHub | Versionamento de Código |
+| Bootstrap | Front-end |
+| jQuery | Front-end(Dependencia do Bootstrap) |
+| MariaDB | Serviço Banco de Dados |
+
+## Imagens do Projeto
+
+
