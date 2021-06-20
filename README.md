@@ -68,7 +68,7 @@ Tecnologias utilizadas no projeto.
 ### Pagina de pesquisa de cep do sistema recebendo um cep não cadastrado no Banco de dados
 ![imagem](Imagens%20do%20Projeto/Search_webservice.png)
 <br/>
-Perceba que no xml retornado temos um valor a mais na reposta, que é o "<Service>", ele é reponsavel por retornar ao usuario da aplicação,
+Perceba que no xml retornado temos um valor a mais na reposta, que é o "<Service\>", ele é reponsavel por retornar ao usuario da aplicação,
 de onde os dados estão sendo retornados
 <br/><br/><br/>
     
