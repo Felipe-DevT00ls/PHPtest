@@ -10,7 +10,7 @@ Sistema desenvolvido como certificação de conhecimentos, para vaga de emprego.
 ## Instalação
 
 Primeiro vá ao diretorio que deseja instalar o projeto e crie a pasta "vagaEmprego"
-após isso dé um git clone no projeto dentro da pasta "vagaEmprego".
+após isso dê um git clone no projeto dentro da pasta "vagaEmprego".
 Agora entre na pasta "PHPtest", logo após isso dê um composer install.
 
 
@@ -84,22 +84,22 @@ Tecnologias utilizadas no projeto.
 
 ## Imagens do Projeto
 
-### Pagina inicial do sistema 
+### Página inicial do sistema 
 ![imagem](Imagens%20do%20Projeto/Home.png)
 <br/><br/><br/>
 
-### Pagina de pesquisa de cep do sistema 
+### Página de pesquisa de cep do sistema 
 ![imagem](Imagens%20do%20Projeto/Default.png)
 <br/><br/><br/>
 
-### Pagina de pesquisa de cep do sistema recebendo um cep não cadastrado no Banco de dados
+### Página de pesquisa de cep do sistema recebendo um cep não cadastrado no Banco de dados
 ![imagem](Imagens%20do%20Projeto/webservice.png)
 <br/>
 Perceba que no xml retornado temos um valor a mais na reposta, que é o "<Service\>", ele é reponsavel por retornar ao usuario da aplicação,
 de onde os dados estão sendo retornados
 <br/><br/><br/>
     
-### Pagina de pesquisa de cep do sistema recebendo um cep cadastrado no Banco de dados
+### Página de pesquisa de cep do sistema recebendo um cep cadastrado no Banco de dados
 ![imagem](Imagens%20do%20Projeto/BD.png)
 <br/>
 Perceba que o valor de <Service\> retorna que o dado está vindo do Banco de dados.
