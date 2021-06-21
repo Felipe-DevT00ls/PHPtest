@@ -9,7 +9,7 @@ Sistema desenvolvido como certificação de conhecimentos, para vaga de emprego.
 
 ## Instalação
 
-Primeiro vá ao diretorio que desejá instalar o projeto e crie a pasta "vagaEmprego"
+Primeiro vá ao diretorio que deseja instalar o projeto e crie a pasta "vagaEmprego"
 após isso dé um git clone no projeto dentro da pasta "vagaEmprego".
 Agora entre na pasta "PHPtest", logo após isso dê um composer install.
 
