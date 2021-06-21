@@ -42,8 +42,27 @@ As configurações do banco de dados da aplicação estão em: `config.php`
         ];
     }
 ```
-
 No array que está configurado na variavel `$config` você pode alterar apenas os valores de cada indice, conforme as configuração do banco de dados do seu server.
+
+Agora você deve criar o Banco e as tabelas
+```sh
+    CREATE DATABASE apiCep;
+    USE apiCep;
+    
+    CREATE TABLE `cep` (
+  `id` int(11) NOT NULL,
+  `cep` varchar(50) NOT NULL,
+  `logadouro` varchar(150) NOT NULL,
+  `complemento` varchar(100) NOT NULL,
+  `bairro` varchar(100) NOT NULL,
+  `localidade` varchar(150) NOT NULL,
+  `uf` varchar(10) NOT NULL,
+  `ibge` int(11) NOT NULL,
+  `gia` int(11) NOT NULL,
+  `ddd` int(10) NOT NULL,
+  `siafi` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
 
 ## Tecnologias
 Tecnologias utilizadas no projeto.
