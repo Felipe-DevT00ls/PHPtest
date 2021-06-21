@@ -23,7 +23,7 @@ class Api{
             $xmlDocument->formatOutput = true;
             $xmlDocument->loadXML($newXml->asXML());
 
-            echo $xmlDocument->saveXML();
+        echo $xmlDocument->saveXML();
         }else{
             $def = new ApiClass($cep);
             $def->defineConfiguration();
