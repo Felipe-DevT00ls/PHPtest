@@ -50,18 +50,18 @@ Agora você deve criar o Banco e as tabelas
     USE apiCep;
     
     CREATE TABLE `cep` (
-  `id` int(11) NOT NULL,
-  `cep` varchar(50) NOT NULL,
-  `logadouro` varchar(150) NOT NULL,
-  `complemento` varchar(100) NOT NULL,
-  `bairro` varchar(100) NOT NULL,
-  `localidade` varchar(150) NOT NULL,
-  `uf` varchar(10) NOT NULL,
-  `ibge` int(11) NOT NULL,
-  `gia` int(11) NOT NULL,
-  `ddd` int(10) NOT NULL,
-  `siafi` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+      `id` int(11) NOT NULL,
+      `cep` varchar(50) NOT NULL,
+      `logadouro` varchar(150) NOT NULL,
+      `complemento` varchar(100) NOT NULL,
+      `bairro` varchar(100) NOT NULL,
+      `localidade` varchar(150) NOT NULL,
+      `uf` varchar(10) NOT NULL,
+      `ibge` int(11) NOT NULL,
+      `gia` int(11) NOT NULL,
+      `ddd` int(10) NOT NULL,
+      `siafi` int(11) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
 ## Tecnologias
